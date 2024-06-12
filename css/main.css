@@ -1,0 +1,88 @@
+html{
+  scroll-behavior: smooth;
+}
+
+/*--- Body ---*/
+
+body{
+  background: #0E0E0E;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/*--- Text ---*/
+
+h1{
+  font-family: 'Akzidenz-Grotesk Pro';
+  margin: 0;
+}
+
+p{
+  size: 18px;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/*--- Menu ---*/
+
+/*--- Header ---*/
+
+/*--- Wrapper ---*/
+
+.wrapper{
+  display: flex;
+  gap: 100px;
+  flex-direction: column;
+}
+
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+  gap: 16px;
+  margin: 0;
+}
+
+.button{
+  background: #2FA8DF;
+  font-weight: 600;
+  display: flex;
+  width: 211px;
+  height: 59px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+/*--- Additional ---*/
+
+/*.additional img{
+  background-size: 70px;
+  background-color: rgba(250, 250, 250, 10%);
+  border-radius: 10px;
+  padding: 15px;
+}*/
+
+.additional{
+  display: flex;
+  gap: 20px;
+}
+
+.add-text{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  width: 266px;
+}
+
+.add-text p{
+  font-weight: 400;
+}
+
+.add-text a{
+  font-weight: 700;
+}
