@@ -1,0 +1,56 @@
+/* Responsive */
+
+/* Large: 992px - 1199px */
+@media (max-width: 1199px) {
+}
+
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+  .menu-buttons{
+    display: none;
+  }
+  .header__burger-btn{
+    display: block;
+  }
+  .header__nav{
+    position: absolute;
+    width: 278px;
+    background: #fff;
+  }
+  .menu{
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    z-index: 1;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 40px 0;
+    gap: 32px;
+    list-style: none;
+    box-shadow: 4px 0px 15px rgba(255, 64, 247, 0.69);
+    transition-duration: .25s;
+  }
+  .menu__item a{
+    display: block;
+    padding: 12px 24px;
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu__item a:hover{
+    background-color: #F0F0F0;
+  }
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+}
+
+/* Extra small: 0px (320px) - 575px */
+@media (max-width: 575px) {
+}
